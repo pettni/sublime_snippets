@@ -16,10 +16,6 @@
 \usepackage{booktabs, hyperref}
 \usepackage{appendixnumberbeamer}
 
-% references
-\usepackage[backend=biber, style=authortitle-comp, maxcitenames=4, firstinits=true]{biblatex}
-% \addbibresource{refs.bib}
-
 % tikz
 \usepackage{tikz, pgfplots}
 \pgfplotsset{compat=newest}
@@ -38,10 +34,9 @@
 
 \beamertemplatenavigationsymbolsempty
 
-\title[${2:Short Title}]{${1:Title}}
-\subtitle{${3:Subtitle}}
-\institute[U-M]{University of Michigan}
-\author[Petter Nilsson]{\texorpdfstring{Petter Nilsson \\\ \footnotesize \href{mailto:pettni@umich.edu}{pettni@umich.edu}}{Petter Nilsson}}
+\title{${1:Title}}
+\institute[Caltech]{California Institute of Technology}
+\author[Petter Nilsson]{\texorpdfstring{Petter Nilsson \\\ \footnotesize \href{mailto:pettni@caltech.edu}{pettni@caltech.edu}}{Petter Nilsson}}
 
 \begin{document}
 
