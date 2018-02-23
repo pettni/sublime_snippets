@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\begin{columns}[t]
+	\begin{column}{0.45\columnwidth}
+		$0
+	\end{column}
+	\begin{column}{0.45\columnwidth}
+
+	\end{column} 
+\end{columns}]]></content>
+    <tabTrigger>bcolumns</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Make a beamer two-column environment</description>
+</snippet>

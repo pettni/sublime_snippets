@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+matlab2tikz('$1','interpretTickLabelsAsTex',true, ...
+		     'width','\figurewidth', 'height', '\figureheight', ...
+		     'parseStrings',false, 'showInfo', false, ...
+		    'extraAxisOptions', ...
+		    'xmajorgrids=false, ymajorgrids=false, axis x line=bottom, axis y line=left, every axis x label/.style={at={(current axis.south east)},anchor=west},  every axis y label/.style={at={(current axis.north west)},anchor=south}')
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tikz</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.matlab</scope>
+</snippet>

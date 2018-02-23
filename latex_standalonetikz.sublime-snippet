@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[tikz]{standalone}
+
+\usepackage{tikz,pgfplots}
+\pgfplotsset{compat=newest}
+
+\newlength\figureheight
+\newlength\figurewidth
+
+\begin{document}
+
+\setlength\figurewidth{10cm} 
+\setlength\figureheight{6cm} 
+
+\input{${1:filename}.tikz}
+
+\end{document}]]></content>
+    <tabTrigger>tikz</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Standalone tikz picture</description>
+</snippet>

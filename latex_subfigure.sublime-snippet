@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[tb]
+	\begin{center}
+		\begin{subfigure}{0.45\columnwidth}
+			
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.45\columnwidth}
+			
+			\caption{}
+		\end{subfigure}
+	\end{center}
+	\caption{Caption here}
+	\label{fig:figure1}
+\end{figure}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subfigure</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+    <description>Subfigure environment</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\left\langle $0 \right\rangle]]></content>
+    <tabTrigger>lrangle</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Insert left-right angle brackets</description>
+</snippet>

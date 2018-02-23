@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[tb]
+	\begin{center}
+		\setlength\figurewidth{0.8\columnwidth} 
+		\setlength\figureheight{0.6 \columnwidth} 
+		\input{${1:file name}.tikz}
+	\end{center}
+	\caption{${2:caption}}
+	\label{fig:${3:label}}
+\end{figure}
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tfigure</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+    <description>TikZ figure environment</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\int\limits_{${1:lower}}^{${2:upper}} $0 \; \mathrm{d} ${3:variable}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>int</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>A math integral</description>
+</snippet>

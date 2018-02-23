@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\sum\limits_{${1:lower}}^{${2:upper}} $0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sum</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>A math sum</description>
+</snippet>

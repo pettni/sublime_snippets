@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+	<![CDATA[
+\lstinputlisting[caption=$1, style=customasm]{${2:filename}}
+]]>
+    </content>
+    <tabTrigger>matlablist</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Insert matlab code snippet</description>
+</snippet>

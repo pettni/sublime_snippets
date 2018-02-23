@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+function [${2:output}] = ${1:function_name}(${3:input})
+
+    % ${1}: ${4:short description}
+    % ======================================================
+    %
+    % SYNTAX
+    % ------
+    %   ${2} = pre(${3})
+    %
+    % DESCRIPTION
+    % -----------
+    %  ${5:description}
+    %
+    % INPUT
+    % -----
+    %   ${3}    Explanation
+    %           Class: Dyn
+    % OUTPUT
+    % -----
+    %   ${2}    Explanation
+    %           Class: Dyn
+
+	${0}
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fun</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.matlab</scope>
+</snippet>

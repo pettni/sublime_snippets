@@ -1,0 +1,60 @@
+<snippet>
+	<content><![CDATA[
+\documentclass{beamer}
+
+\usecolortheme{seahorse}			% outer color themes: dolphin, wolverine, seahorse, whale
+\usecolortheme{rose} 				% inner color themes: lily, orchid, rose
+\useoutertheme{default}				% default, infolines
+\useinnertheme{circles}				% default, circles, rectangles, 
+\usefonttheme{professionalfonts}	% professionalfonts, serif, structureitalicserif
+
+% Page numbers in bottom right
+\setbeamerfont{page number in head/foot}{size=\scriptsize}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, amsthm, dsfont}
+\usepackage{booktabs, hyperref}
+\usepackage{appendixnumberbeamer}
+
+% references
+\usepackage[backend=biber, style=authortitle-comp, maxcitenames=4, firstinits=true]{biblatex}
+% \addbibresource{refs.bib}
+
+% tikz
+\usepackage{tikz, pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta, shapes.geometric, positioning, calc, scopes}
+\newlength\figureheight
+\newlength\figurewidth
+
+% allow for \visible in tikz
+\tikzset{
+  invisible/.style={opacity=0},
+  visible on/.style={alt=#1{}{invisible}},
+  alt/.code args={<#1>#2#3}{%
+    \alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+  },
+}
+
+\beamertemplatenavigationsymbolsempty
+
+\title[${2:Short Title}]{${1:Title}}
+\subtitle{${3:Subtitle}}
+\institute[U-M]{University of Michigan}
+\author[Petter Nilsson]{\texorpdfstring{Petter Nilsson \\\ \footnotesize \href{mailto:pettni@umich.edu}{pettni@umich.edu}}{Petter Nilsson}}
+
+\begin{document}
+
+\begin{frame}[noframenumbering,plain]\maketitle\end{frame}
+\begin{frame}[plain,noframenumbering]{Outline}\tableofcontents\end{frame}
+
+$0
+
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>beamer</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+    <description>Basic LaTeX beamer template</description>
+</snippet>

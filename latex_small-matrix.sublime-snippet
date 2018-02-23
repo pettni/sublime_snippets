@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\left[\begin{smallmatrix}
+$0
+\end{smallmatrix} \right]]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>smat</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>
