@@ -1,13 +1,19 @@
 <snippet>
     <content>
 	<![CDATA[
+%!TEX program = xelatex
 \documentclass[letterpaper, 12pt]{article}
 
-\usepackage{amsmath, amsthm, amssymb, dsfont, accents}
+\usepackage{amsmath, amsthm, amssymb, dsfont}
 \usepackage{hyperref, booktabs}
 \usepackage{fullpage}
 
-\usepackage[backend=biber]{biblatex}
+\usepackage{mathspec}
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+\setmathsfont(Digits,Greek,Latin)[Numbers={Proportional}]{Minion Pro}
+
+\usepackage{biblatex}
 % \addbibresource{refs.bib}
 
 \title{$1}
