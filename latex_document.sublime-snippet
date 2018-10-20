@@ -9,9 +9,10 @@
 \usepackage{fullpage}
 
 \usepackage{mathspec}
-\setmainfont{Minion Pro}
-\setsansfont{Myriad Pro}
-\setmathsfont(Digits,Greek,Latin)[Numbers={Proportional}]{Minion Pro}
+\setmainfont{Linux Libertine O}
+\setsansfont{Linux Biolinum O}
+\setmathsfont(Digits,Latin,Greek)
+  [Numbers={Lining,Proportional}]{Linux Libertine O}
 
 \usepackage{biblatex}
 % \addbibresource{refs.bib}
