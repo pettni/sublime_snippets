@@ -4,18 +4,18 @@
 %!TEX program = xelatex
 \documentclass[letterpaper, 12pt]{article}
 
-\usepackage{amsmath, amsthm, amssymb, dsfont}
-\usepackage{hyperref, booktabs}
-\usepackage{fullpage}
+\usepackage{amsmath, amsthm, amssymb, dsfont, xcolor, booktabs}
+\usepackage[colorlinks, linkcolor={blue!50!black}, citecolor={blue!50!black}, urlcolor={red!50!black}]{hyperref}
 
 \usepackage{mathspec}
-\setmainfont{Linux Libertine O}
-\setsansfont{Linux Biolinum O}
-\setmathsfont(Digits,Latin,Greek)
-  [Numbers={Lining,Proportional}]{Linux Libertine O}
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmathsfont{Libertinus Math}
 
 \usepackage{biblatex}
 % \addbibresource{refs.bib}
+
+\usepackage{fullpage}
 
 \title{$1}
 \author{Petter Nilsson \\\ \href{mailto:pettni@caltech.edu}{pettni@caltech.edu}}
