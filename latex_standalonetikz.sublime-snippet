@@ -4,9 +4,7 @@
 
 \usepackage{tikz,pgfplots}
 \pgfplotsset{compat=newest}
-
-\newlength\figureheight
-\newlength\figurewidth
+\usetikzlibrary{arrows.meta, shapes.geometric, positioning, calc, scopes, spy, tikzmark}
 
 \begin{document}
 
